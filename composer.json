@@ -1,0 +1,15 @@
+{
+    "name": "composer-fallback/php-80.symfony-polyfill",
+    "description": "Satisfy \"php 8.0\" with packages provided by user, or fallback to \"symfony-polyfill\".",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": [
+        "composer",
+        "fallback",
+        "default",
+        "php 8.0"
+    ],
+    "require": {
+        "symfony/polyfill-php80": "*"
+    }
+}
